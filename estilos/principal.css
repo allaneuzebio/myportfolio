@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #837E9F;
+    font-size: .9em;
+}
+
+body {
+    background-color: #22212C;
+    width: 98vw;
+    margin: auto;
+    
+}
+
+.port {
+    display: flex;
+    min-height: 100vh;
+    
+
+}
+
+section {
+    background-color: #302F3D;
+    text-align: center;
+    height: 100px;
+    margin: 20px 15px 0px 15px;
+    border-radius: 10px;
+
+
+}
+
+main {
+    flex: 1;
+
+    
+}
+
+main > section {
+    width: 28vw;
+}
+
+.nome {
+    text-align: center;
+    height: 14vh;
+    
+}
+
+.nome > h1 {
+    font-size: 1em;
+    padding: 5px;
+}
+
+.nome img {
+    border-radius: 100px;
+    margin-top: 10px;
+    border: 2px solid rgb(10, 202, 10);
+}
+
+.contato {
+    background-color: #302F3D;
+    position: relative;
+    padding-top: 5px;
+    height: 25vh;
+    
+    }
+
+.contato > ul {
+    font-size: 1.2em;
+    
+}
+
+.li {
+    margin-top: 10px;
+    margin-left: 10px;
+    display:         flex;
+    align-items: left;
+    
+}
+
+.texto {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+aside {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.projetos {
+    background-color: #302F3D;
+    text-align: center;
+}
+
+.tecs {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.primeiro {
+    float: left;
+    width: 25vw;
+    
+}
+
+.segundo {
+    float: right;
+    width: 25vw;
+}
+
+
+
+
+
+
