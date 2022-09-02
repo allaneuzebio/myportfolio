@@ -136,6 +136,35 @@ main > section {
     color: black;
 }
 
+.experiencia {
+    display: grid;
+    
+}
+
+.experiencia > h1 {
+    font-size: 1.1em;
+    padding-top: 5px;
+}
+
+.experiencia > ul {
+    text-align: justify;
+    margin-left: 25px;
+    font-size:
+}
+
+.experiencia > a {
+    text-decoration: none;
+}
+
+.experiencia > a:hover {
+    color: black;
+}
+
+.empresa {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
 .primeiro {
     float: left;
     width: 28vw;
