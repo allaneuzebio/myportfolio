@@ -28,7 +28,7 @@ section {
     background-color: #302F3D;
     text-align: center;
     height: 100px;
-    margin: 20px 15px 0px 15px;
+    margin: 20px 10px 0px 10px;
     border-radius: 10px;
 }
 
@@ -138,13 +138,13 @@ main > section {
 
 .primeiro {
     float: left;
-    width: 25vw;
+    width: 28vw;
     
 }
 
 .segundo {
     float: right;
-    width: 25vw;
+    width: 28vw;
 }
 
 
