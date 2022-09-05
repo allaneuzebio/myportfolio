@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     color: #837E9F;
-    font-size: .9em;
+    font-size: .9em;,
 }
 
 body {
@@ -17,11 +17,14 @@ body {
     
 }
 
+h1 {
+    font-size: 1.1em;
+    padding-top: 5px;
+}
+
 .port {
     display: flex;
     min-height: 100vh;
-    
-
 }
 
 section {
@@ -149,16 +152,8 @@ main > section {
 .experiencia > ul {
     text-align: justify;
     margin-left: 25px;
+    margin-top: -20px;
     font-size:
-}
-
-.experiencia > a {
-    text-decoration: none;
-    font-size: 0.8em;
-}
-
-.experiencia > a:hover {
-    color: white;
 }
 
 .empresa {
@@ -178,6 +173,7 @@ main > section {
 .educacao > ul {
     text-align: justify;
     margin-left: 25px;
+    margin-top: -20px;
     font-size:
 }
 
@@ -186,24 +182,49 @@ main > section {
     font-weight: bolder;
 }
 
-.educacao > a {
-    text-decoration: none;
-    font-size: 0.8em;
+.projetos {
+    display: flex;
+    height: 30px;
+    align-items: center;
 }
 
-.educacao > a:hover {
-    color: white;
+.projetos > a {
+    text-decoration: none;
+}
+
+.titulo {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.todosprojetos {
+    margin-right: 15px;
+}
+
+.tecs {
+
 }
 
 .primeiro {
     float: left;
     width: 30vw;
-    
+    height: 50px;
 }
 
 .segundo {
     float: right;
     width: 30vw;
+    height: 50px;
+}
+
+.recentes {
+    height: 30px;
+}
+
+.indefinido {
+    height: 40px;
 }
 
 
