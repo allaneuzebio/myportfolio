@@ -28,7 +28,7 @@ section {
     background-color: #302F3D;
     text-align: center;
     height: 100px;
-    margin: 20px 10px 0px 10px;
+    margin: 20px 5px 0px 5px;
     border-radius: 10px;
 }
 
@@ -44,7 +44,7 @@ aside {
 }
 
 main > section {
-    width: 28vw;
+    width: 30vw;
 }
 
 .nome {
@@ -154,10 +154,11 @@ main > section {
 
 .experiencia > a {
     text-decoration: none;
+    font-size: 0.8em;
 }
 
 .experiencia > a:hover {
-    color: black;
+    color: white;
 }
 
 .empresa {
@@ -167,13 +168,13 @@ main > section {
 
 .primeiro {
     float: left;
-    width: 28vw;
+    width: 30vw;
     
 }
 
 .segundo {
     float: right;
-    width: 28vw;
+    width: 30vw;
 }
 
 
