@@ -27,6 +27,7 @@ h1 {
     min-height: 100vh;
 }
 
+
 section {
     background-color: #302F3D;
     text-align: center;
@@ -35,16 +36,20 @@ section {
     border-radius: 10px;
 }
 
+
 main {
     flex: 1;
  
 }
+
 
 aside {
     flex: 2;
     display: flex;
     flex-direction: column;
 }
+
+
 
 main > section {
     width: 30vw;
@@ -225,6 +230,10 @@ main > section {
 
 .indefinido {
     height: 40px;
+}
+
+img#tablet {
+    display: none;
 }
 
 

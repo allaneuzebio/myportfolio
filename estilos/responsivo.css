@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*Todas as telas*/
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 80vw;
+    }
+
+    .nome {
+        height: 20vh;
+    }
+    img#tablet {
+        
+    }
+
+
+
+img#phone {display: none;}
+img#tablet {display: flex;}
+}
+
