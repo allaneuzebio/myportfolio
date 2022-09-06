@@ -5,16 +5,103 @@
 @media screen and (min-width: 768px) {
     body {
         width: 80vw;
+        font-size: 1.2em;
+    }
+
+    h1 {
+        text-align: left;
+        margin-left: 15px;
+    
+    }
+
+    main > section {
+        margin-right: 25px;
+        
+    }
+
+    aside > section {
+        margin-left: 25px;
     }
 
     .nome {
         height: 20vh;
+        padding-top: 15px;
+
     }
-    img#tablet {
-        
+
+    .nome > h1 {
+        text-align: center;
+        margin: 15px 0px 5px 0px;
+    }
+
+    .nome img {
+        border-radius: 100px;
+        margin: auto;
+        border: 2px solid rgb(10, 202, 10);
+    }
+
+    .li {
+        margin-left: 25px;
+    }
+
+    .texto {
+        margin-left: 20px;
+    }
+
+    .tecnologias {
+        height: 14vh;
+    }
+
+    .especialtec {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        font-size: 0.9em;
+        margin: 20px 15px 0px 15px;
+        align-items: center;
+    }
+
+    .experiencia > ul {
+        text-align: justify;
+        margin-left: 50px;
+    }
+
+    .educacao > h1 {
+        font-size: 1.1em;
+        margin-bottom: -10px;
+    }
+
+    .educacao > ul {
+        text-align: auto;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size:
     }
 
 
+    .primeiro {
+        float: left;
+        width: 20vw;
+        height: 40px;
+        margin-left: 25px;
+    }
+    
+    .segundo {
+        float: right;
+        width: 20vw;
+        height: 40px;
+    }
+
+    .projetos {
+        height: 40px;
+    }
+
+    .recentes {
+        height: 80px;
+    }
+
+    .indefinido {
+        height: 100px;
+    }
 
 img#phone {display: none;}
 img#tablet {display: flex;}
