@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     color: #837E9F;
-    font-size: .9em;,
+    font-size: .9em;
 }
 
 body {
@@ -161,7 +161,6 @@ main > section {
     text-align: justify;
     margin-left: 25px;
     margin-top: -20px;
-    font-size:
 }
 
 .empresa {
@@ -182,7 +181,6 @@ main > section {
     text-align: justify;
     margin-left: 25px;
     margin-top: -20px;
-    font-size:
 }
 
 .cursos {
@@ -209,10 +207,6 @@ main > section {
 
 .todosprojetos {
     margin-right: 15px;
-}
-
-.tecs {
-
 }
 
 .primeiro {

@@ -2,16 +2,16 @@
 
 /*Todas as telas*/
 /* 
-Pequenas telas: até 600px
+Pequenas telas: até 600px (320-480 comum)
 Celular: de 600px até 768px
-Tablet: 768px até 992px
+Tablet: 768px até 992 ou 1024px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {/*TABLET*/
     body {
-        width: 600px;
-        font-size: 1.2em;
+        width: 100%;
+        font-size: 1em;
     }
 
     h1 {
@@ -20,13 +20,6 @@ Grandes telas: acima de 1200px */
     
     }
 
-    .port {
-    
-    }
-
-    main {
-        
-    }
 
     aside {
         flex: 0;
@@ -45,7 +38,7 @@ Grandes telas: acima de 1200px */
     }
 
     .nome {
-        height: 18vh;
+        height: 20vw;
         padding-top: 15px;
         
 
@@ -100,7 +93,6 @@ Grandes telas: acima de 1200px */
         text-align: auto;
         margin-left: 50px;
         margin-top: 10px;
-        font-size:
     }
 
 
@@ -132,7 +124,7 @@ img#phone {display: none;}
 img#tablet {display: flex;}
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {/*DESKTOP*/
     body {
         width: 800px;
         font-size: 1.2em;
