@@ -22,26 +22,20 @@ Grandes telas: acima de 1200px */
 
 
     aside {
-        flex: 0;
+        flex: 2;
+        margin-right: 30px;
+
     }
 
 
     main > section {
-        margin-right: 40px;
         width: 300px;
-        margin-bottom: 30px;
-        
-    }
-
-    aside > section {
-        width: 300px;
+        margin: 20px 30px 30px 30px;
     }
 
     .nome {
-        height: 20vw;
+        height: 170px;
         padding-top: 15px;
-        
-
     }
 
     .nome > h1 {
@@ -50,9 +44,7 @@ Grandes telas: acima de 1200px */
     }
 
     .nome img {
-        border-radius: 100px;
         margin: auto;
-        border: 2px solid rgb(10, 202, 10);
     }
 
     .contato {
@@ -98,13 +90,13 @@ Grandes telas: acima de 1200px */
 
     .primeiro {
         float: left;
-        width: 140px;
+        width: 45%;
         height: 40px;
     }
     
     .segundo {
         float: right;
-        width: 140px;
+        width: 45%;
         height: 40px;
     }
 
@@ -126,32 +118,257 @@ img#tablet {display: flex;}
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {/*DESKTOP*/
     body {
-        width: 800px;
-        font-size: 1.2em;
+        width: 100%;
+        font-size: 1.1em;
     }
+
+
+    aside {
+        flex: 2;
+        margin-right: 30px;
+
+    }
+
 
     main > section {
-        margin-right: 20px;
         width: 300px;
-        
+        margin: 20px 30px 20px 30px;
     }
 
-    aside > section {
-        width: 450px;
+    h1 {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
     }
+
+
+
+    .nome {
+        height: 150px;
+        padding-top: 15px;
+    }
+
+    .nome > h1 {
+        text-align: center;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .nome img {
+        margin: auto;
+    }
+
+    .contato {
+        height: 17%;
+    }
+
+    .li {
+        margin-left: 15px;
+    }
+
+    .contatoleft {
+        float: left;
+    }
+
+    .contatoright {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .texto {
+        margin-left: 20px;
+    }
+
+    .tecnologias {
+        height: 17%;
+    }
+
+    .especialtec {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        font-size: 0.9em;
+        margin: 15px 15px 5px 15px;
+        align-items: center;
+    }
+
+    .experiencia > ul {
+        text-align: justify;
+        margin-top: 5px;
+        margin-left: 50px;
+        font-size: 1.1em;
+    }
+
+    .educacao > h1 {
+        font-size: 1.1em;
+
+    }
+
+    .educacao > ul {
+        text-align: auto;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 1.1em;
+    }
+
 
     .primeiro {
         float: left;
-        width: 210px;
+        width: 45%;
         height: 40px;
     }
     
     .segundo {
         float: right;
-        width: 210px;
+        width: 45%;
         height: 40px;
     }
 
-    
-    
+    .projetos {
+        height: 40px;
     }
+
+    .recentes {
+        height: 80px;
+    }
+
+    .indefinido {
+        height: 100px;
+    }
+
+img#phone {display: none;}
+img#tablet {display: flex;}
+}
+
+
+@media screen and (min-width: 1200px) { /*telas grandes*/
+
+    body {
+        width: 70%;
+        font-size: 1.1em;
+    }
+
+
+    aside {
+        flex: 2;
+        margin-right: 30px;
+
+    }
+
+
+    main > section {
+        width: 300px;
+        margin: 20px 30px 40px 30px;
+    }
+
+    aside > section {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+
+
+    .nome {
+        height: 170px;
+        padding-top: 15px;
+    }
+
+    .nome > h1 {
+        text-align: center;
+        margin: 10px 0px 5px 0px;
+    }
+
+    .nome img {
+        margin: auto;
+    }
+
+    .contato {
+        height: 13%;
+    }
+
+    .li {
+        margin-left: 15px;
+    }
+
+    .contatoleft {
+        float: left;
+    }
+
+    .contatoright {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .texto {
+        margin-left: 20px;
+    }
+
+    .tecnologias {
+        height: 13%;
+    }
+
+    .especialtec {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        font-size: 0.9em;
+        margin: 15px 15px 5px 15px;
+        align-items: center;
+    }
+
+    .experiencia > ul {
+        text-align: justify;
+        margin-top: 5px;
+        margin-left: 50px;
+        font-size: 1.1em;
+    }
+
+    .educação {
+        height: 150px;
+    }
+
+    .educacao > h1 {
+        font-size: 1.1em;
+
+    }
+
+    .educacao > ul {
+        text-align: auto;
+        margin-left: 50px;
+        margin-top: 10px;
+        font-size: 1.1em;
+    }
+
+
+    .primeiro {
+        float: left;
+        width: 45%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .segundo {
+        float: right;
+        width: 45%;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .projetos {
+        height: 40px;
+    }
+
+    .recentes {
+        height: 80px;
+    }
+
+    .indefinido {
+        height: 100px;
+    }
+
+img#phone {display: none;}
+img#tablet {display: flex;}
+
+}
