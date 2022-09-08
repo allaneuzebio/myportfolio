@@ -105,7 +105,7 @@ main > section {
 }
 
 .tecnologias {
-    height: 15vh;  
+    height: 17vh;  
 }
 
 .tecnologias > p {
@@ -130,18 +130,21 @@ main > section {
     background-color: green;
     border-radius: 10px;
     color: black;
+    padding: 2px;
 }
 
 .tech-yellow {
     background-color: rgb(196, 196, 41);
     border-radius: 10px;
     color: black;
+    padding: 2px;
 }
 
 .tech-red {
     background-color: red;
     border-radius: 10px;
     color: black;
+    padding: 2px;
 }
 
 .experiencia {
