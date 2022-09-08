@@ -20,6 +20,10 @@ Grandes telas: acima de 1200px */
     
     }
 
+    .port {
+        margin-top: 40px;
+    }
+
     main {
         
     }
@@ -32,15 +36,17 @@ Grandes telas: acima de 1200px */
     main > section {
         margin-right: 40px;
         width: 300px;
+        margin-bottom: 40px;
         
     }
 
     aside > section {
         width: 300px;
+        margin-bottom: 30px;
     }
 
     .nome {
-        height: 20vh;
+        height: 18vh;
         padding-top: 15px;
         
 
@@ -57,6 +63,10 @@ Grandes telas: acima de 1200px */
         border: 2px solid rgb(10, 202, 10);
     }
 
+    .contato {
+        height: 20vh;
+    }
+
     .li {
         margin-left: 55px;
     }
@@ -66,7 +76,7 @@ Grandes telas: acima de 1200px */
     }
 
     .tecnologias {
-        height: 14vh;
+        height: 12vh;
     }
 
     .especialtec {
@@ -99,12 +109,14 @@ Grandes telas: acima de 1200px */
         float: left;
         width: 140px;
         height: 40px;
+        margin-bottom: 30px;
     }
     
     .segundo {
         float: right;
         width: 140px;
         height: 40px;
+        margin-bottom: 30px;
     }
 
     .projetos {
