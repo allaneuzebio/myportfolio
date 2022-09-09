@@ -118,6 +118,7 @@ img#tablet {display: flex;}
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {/*DESKTOP*/
     body {
+        
         width: 100%;
         font-size: 1.1em;
     }
@@ -256,7 +257,7 @@ img#tablet {display: flex;}
 
     main > section {
         width: 300px;
-        margin: 20px 30px 40px 30px;
+        margin: 20px 30px 25px 30px;
     }
 
     aside > section {
@@ -286,7 +287,7 @@ img#tablet {display: flex;}
     }
 
     .contato {
-        height: 13%;
+        height: 15%;
     }
 
     .li {
@@ -307,7 +308,7 @@ img#tablet {display: flex;}
     }
 
     .tecnologias {
-        height: 13%;
+        height: 15%;
     }
 
     .especialtec {
@@ -325,17 +326,13 @@ img#tablet {display: flex;}
         font-size: 1.1em;
     }
 
-    .educação {
-        height: 150px;
-    }
-
     .educacao > h1 {
         font-size: 1.1em;
 
     }
 
     .educacao > ul {
-        text-align: auto;
+        text-align: justify;
         margin-left: 50px;
         margin-top: 10px;
         font-size: 1.1em;
